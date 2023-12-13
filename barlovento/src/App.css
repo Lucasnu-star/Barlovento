@@ -1,0 +1,46 @@
+.imagenBarlovento {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-carousel-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-section {
+  border: 2px solid black;
+  padding: 3px;
+  margin: 2px;
+  text-align: center;
+}
+
+.menu-slide {
+ border-bottom: 1px solid black;
+ border-right: 1px solid black;
+  border-radius: 10px; /* Ajusta según sea necesario */
+  padding: 10px;
+  text-align: center;
+  margin: 30px auto;
+  box-sizing: border-box;
+  font-size: 0.5rem; /* Utilizando rem para hacer el texto responsive */
+  overflow: hidden; /* Evita que el texto sobresalga del contenedor */
+  
+}
+.cardsFather
+{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  max-width: 100%;
+
+ 
+}
+.cards
+{
+  border-bottom: 3px solid black;
+  margin: 20px; 
+  padding: 20px 0 20px 10px;
+  border-radius: 10%;
+
+ }
