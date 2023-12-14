@@ -1,8 +1,3 @@
-import logoBarlovento from '../assets/logoBarlovento.png'
-
-export function Barlovento () {
-
-    return(
-            <img className='imagenBarlovento' src={logoBarlovento} alt="logoBarlovento" />
-    )
+export function Barlovento() {
+	return <img className="h-auto max-w-full" src="./logoBarlovento.png" alt="logoBarlovento" />
 }

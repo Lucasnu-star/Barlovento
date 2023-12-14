@@ -1,90 +1,16 @@
-const dataMenuesIndex = [{ 
-    id:1,
-    menu:"Sandwiches",
-},
-{ 
-    id:2,
-    menu:"Hamburguesas",
-},
-{ 
-    id:3,
-    menu:"Milanesas",
-},
-{ 
-    id:4,
-    menu:"Pizzas",
-},
-{ 
-    id:5,
-    menu:"Tapeos",
-},
-{ 
-    id:6,
-    menu:"Empanadas",
-},
-{ 
-    id:7,
-    menu:"Ensaladas",
-},
-{ 
-    id:8,
-    menu:"Carnes",
-},
-{ 
-    id:9,
-    menu:"Pastas",
-},
-{ 
-    id:10,
-    menu:"Pescados",
-},
-{ 
-    id:12,
-    menu:"Infusiones",
-},
-{ 
-    id:13,
-    menu:"Desayunos",
-},
-{ 
-    id:14,
-    menu:"Jugos/Licuados",
-},
-{ 
-    id:15,
-    menu:"Postres",
-},
-{ 
-    id:16,
-    menu:"Panaderia",
-},
-{ 
-    id:17,
-    menu:"Bebidas",
-    
-},
-{ 
-    id:18,
-    menu:"Vinos",
-},
-{ 
-    id:19,
-    menu:"Tragos",
-}
-]
-
-export function Cards ({children}) {
-  return (
-    <section className='cardsFather'>
-    {dataMenuesIndex.map((menuestItems)=>(
-    <div className='cards'>
-        <h2>{menuestItems.menu}</h2>
-            <div key={menuestItems.id} className="children">
-                {children}
-            </div> 
-    </div>
-    ))}
-</section>
-    
-  )
+export function Cards({ title, img, price, description }) {
+	return (
+		<section className="w-full mb-6 p-5 flex flex-col justify-center shadow-md rounded-lg bg-white">
+			{/* <div className="">
+				<img src={img} alt="" className="w-[200px] h-auto object-cover" />
+			</div> */}
+			<div className="flex flex-col">
+				<h3 className="text-lg font-bold mb-1">{title}</h3>
+				<p className="text-xs text-[#757575]">{description}</p>
+				<span className="border w-fit px-6 p-1 border-[#f95129] rounded-lg bg-transparent text-[#f95129] text-xs mt-2 font-bold">
+					${price}
+				</span>
+			</div>
+		</section>
+	)
 }

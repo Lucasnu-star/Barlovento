@@ -1,24 +1,14 @@
-
-
-import './App.css'
-import { Cards, NavBar } from './components'
-import { Barlovento } from './components/barlovento'
+import { Barlovento, NavBar } from './components'
+import Section from './components/Section'
 
 function App() {
- 
-
-  return (
-    <>
-      <Barlovento/>
-      <NavBar/>
-      <Cards 
-        children={<h4>sadba</h4>}
-      >
-
-
-      </Cards>
-    </>
-  )
+	return (
+		<>
+			<Barlovento />
+			<NavBar />
+			<Section />
+		</>
+	)
 }
 
 export default App
