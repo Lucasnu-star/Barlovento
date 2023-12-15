@@ -3,7 +3,7 @@ import { BiDish } from "react-icons/bi";
 
 export function Cards({ title, img, price, priceDuo, description }) {
 	return (
-		<section className="w-full mb-6 p-5 grid items-center grid-cols-[70%_1fr] gap-5 shadow-md rounded-lg bg-white ">
+		<section className="w-full mb-6 p-5 grid items-center grid-cols-[70%_1fr] gap-5 shadow-md shadow-gray-500 rounded-lg bg-white ">
 			
 			<div className="flex flex-col">
 				<h3 className="text-lg font-bold mb-1 ">{title}</h3>
@@ -16,7 +16,9 @@ export function Cards({ title, img, price, priceDuo, description }) {
 )}
 
 {priceDuo && (
+
   <span className="border w-fit px-6 p-1 border-[#f95129] rounded-lg bg-transparent text-[#f95129] text-xs mt-2 font-bold">
+	
     ${priceDuo}
   </span>
 )}

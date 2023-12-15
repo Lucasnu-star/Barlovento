@@ -115,13 +115,6 @@ export const dataMenues = [
 				
 			},
 			{
-				nombre: 'Hamburguesa Doble Reserva',
-				precio: 6500,
-				description: 'Hamburguesa la boca con 240gr de carne, doble panceta crocante, doble cheddar, doble cebolla caramelizada, doble huevo, lechuga y tomate.',
-				img: '../../public/imgComida.jpg',
-				
-			},
-			{
 				nombre: 'Veggie Clasica',
 				precio: 4100,
 				description: 'Hamburguesa veggie( medallón de arvejas, champiñones, espinaca, garbanzos, lentejas o quinoa).',
@@ -638,7 +631,7 @@ export const dataMenues = [
 				img: '../../public/imgComida.jpg',
 			},
 			{
-				nombre: 'Durazno con Cremas',
+				nombre: 'Durazno con Crema',
 				precio: 2200,
 				img: '../../public/imgComida.jpg',
 			},
@@ -720,8 +713,8 @@ export const dataMenues = [
 	},
 	{
 		id: 20,
-		title: 'Vinos',
-		subTitle: 'Tinto',
+		title: 'Vinos Tinto',
+	
 		items: [
 			{
 				nombre: 'Alaris',
@@ -752,7 +745,7 @@ export const dataMenues = [
 	},
 	{
 		id: 21,
-		subTitle: 'Blanco',
+		title:'Vinos Blanco',
 		items: [
 			{
 				nombre: 'Cosecha Tardía',
