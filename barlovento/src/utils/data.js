@@ -671,7 +671,7 @@ export const dataMenues = [
 	},
 	{
 		id: 20,
-		title: 'Vinos',
+		title: 'Vinos Tintos',
 
 		items: [
 			{
@@ -702,7 +702,7 @@ export const dataMenues = [
 	},
 	{
 		id: 21,
-		title: 'Vinos',
+	title: 'Vinos Blanco',
 		items: [
 			{
 				nombre: 'Cosecha Tardía',
