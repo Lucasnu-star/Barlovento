@@ -9,15 +9,15 @@ export function NavBar() {
 		infinite: true,
 		speed: 150,
 		slidesToShow: 4,
-		slidesToScroll: 1,
+		slidesToScroll: 3,
 		arrows: false,
 	}
 
 	return (
 		<Slider {...settings}>
 			{dataMenues.map(menuItem => (
-				<div key={menuItem.id} className="flex justify-around gap-4 menu-slide">
-					<h2>{menuItem.title}</h2>
+				<div key={menuItem.id} className=" menu-slide">
+					<strong><h2>{menuItem.title}</h2></strong>
 				</div>
 			))}
 		</Slider>
