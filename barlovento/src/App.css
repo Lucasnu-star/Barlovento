@@ -13,15 +13,6 @@ body {
 } */
 
 .menu-slide {
-	border-bottom: 2px solid black;
-	border-right: 2px solid black;
-	border-radius: 50px;
-	padding: 10px;
-	text-align: center;
-	margin: 30px auto;
-	box-sizing: border-box;
-	font-size: 2.5vw;
-	overflow: hidden;
 }
 .cardsFather {
 	display: flex;

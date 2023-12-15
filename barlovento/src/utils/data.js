@@ -1,82 +1,70 @@
-
-
 export const dataMenues = [
 	{
 		id: 1,
 		title: 'Sandwiches',
-		subTitle:'(Con papas o ensalada)',
+		subTitle: 'Con papas o ensalada',
 		// falta un subtitulo / SANDWICHES CALIENTES Y FRIOS
-		
+
 		items: [
 			{
 				nombre: 'Sandwich Clásico',
 				precio: 4500,
 				description: 'Sandwich de milanesa clásica. Sencillamente delicioso.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Sandwich Completo',
 				precio: 5300,
 				description: 'Sandwich de milanesa con jamón, queso, huevo a la plancha, lechuga y tomate.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Sandwich La Boca',
 				precio: 6000,
 				description: 'Sandwich de milanesa con panceta crocante, cebolla caramelizada, cheddar, tomate y lechuga.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Lomo Grillé Clásico',
 				precio: 5500,
 				description: 'Sandwich de lomo grille clásico, Sencillamente delicioso.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Lomo Grillé Completo',
 				precio: 6100,
 				description: 'Sandwich de lomo grillé con jamon, queso, huevo a la plancha, lechuga y tomate.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Lomo Grillé "LA BOCA"',
 				precio: 6600,
 				description: 'Sandwich de lomo grillé con panceta crocante, cebolla caramelizada, cheddar, tomate y lechuga.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Vegetariano',
 				precio: 4100,
 				description: 'Sandwich vegetariano con queso dambo, huevo a la plancha, lechuga, tomate y palta.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Vegano',
 				precio: 4500,
 				description: 'Sandwich vegano con pepino, zanahoria, cebolla caramelizada, palta, lechuga y tomate.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Jamón y Queso',
 				precio: 3200,
 				description: 'Sandwich de jamón y queso. Sencillamente delicioso.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Primavera',
 				precio: 3200,
 				description: 'Sandwich primavera con jamón, queso, huevo, lechuga y tomate.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 		],
 	},
@@ -84,70 +72,63 @@ export const dataMenues = [
 	{
 		id: 2,
 		title: 'Hamburguesas',
-		
+
 		items: [
 			{
 				nombre: 'Hamburguesa Clásica',
 				precio: 4100,
 				description: 'Hamburguesa clásica con 120 gr de carne. Sencillamente delicioso.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Hamburguesa Completa',
 				precio: 4800,
 				description: 'Hamburguesa completa con 120 gr de carne, jamon, queso, huevo a la plancha, lechuga y tomate.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Hamburguesa "LA BOCA"',
 				precio: 5100,
 				description: 'Hamburguesa la boca con 120 gr de carne, panceta crocante, cebolla caramelizada, cheddar, tomate y lechuga.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Hamburguesa Doble Reserva',
 				precio: 6500,
-				description: 'Hamburguesa la boca con 240 gr de carne, doble panceta crocante, doble cheddar, doble cebolla caramelizada, doble huevo, lechuga y tomate.',
+				description:
+					'Hamburguesa la boca con 240 gr de carne, doble panceta crocante, doble cheddar, doble cebolla caramelizada, doble huevo, lechuga y tomate.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Veggie Clasica',
 				precio: 4100,
 				description: 'Hamburguesa veggie( medallón de arvejas, champiñones, espinaca, garbanzos, lentejas o quinoa).',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Veggie Completa',
 				precio: 4800,
 				description: 'Hamburguesa veggie completa con queso, huevo a la plancha, cebolla caramelizada, lechuga y tomate.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Extras',
 				precio: 400,
-				description: '(Jamón, queso, huevo, cebolla caramelizada, panceta, cheddar).',
+				description: 'Jamón, queso, huevo, cebolla caramelizada, panceta, cheddar.',
 			},
-			
 		],
 	},
 	{
 		id: 3,
 		title: 'Milanesas',
-		subTitle:'(Para compartir, con papas fritas o ensaladas)',
+		subTitle: 'Para compartir, con papas fritas o ensaladas',
 		items: [
 			{
 				nombre: 'Milanesa Clásica',
 				precio: 4300,
-				precioCompartir:8500,
+				precioCompartir: 8500,
 				description: 'Milanesa de ternera o suprema.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Milanesa Napolitana',
@@ -155,26 +136,21 @@ export const dataMenues = [
 				precioCompartir: 9700,
 				description: 'Milanesa de ternera o suprema con jamon, queso muzarella, salsa de tomate.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Milanesa a Caballo',
 				precio: 4800,
-				precioCompartir:9500,
+				precioCompartir: 9500,
 				description: 'Milanesa de ternera o suprema con 2 huevos fritos.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Milanesa Marchi',
 				precio: 5600,
-				precioCompartir:11000,
+				precioCompartir: 11000,
 				description: 'Milanesa de ternera o suprema con panceta crocante, cebolla caramelizada, cheddar, 2 huevos.',
 				img: '../../public/imgComida.jpg',
-				
-			}
-			
-			
+			},
 		],
 	},
 	{
@@ -186,56 +162,48 @@ export const dataMenues = [
 				precio: 5000,
 				description: 'Salsa de tomate, mozzarella y orégano.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Fugazzeta',
 				precio: 5500,
 				description: 'Cebolla, mozzarella y orégano.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Barlovento',
 				precio: 6000,
 				description: 'Salsa de tomate, queso azul, cebolla, mozzarella y orégano.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Especial',
 				precio: 6000,
 				description: 'Salsa de tomate, mozzarella, jamón  y orégano.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Portobello',
 				precio: 6000,
 				description: 'Salsa de tomate, mozzarella, parmesano, hongos, lluvia de ciboulette y orégano.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Portobello',
 				precio: 6200,
 				description: 'Salsa de tomate, mozzarella, parmesano, hongos, lluvia de ciboulette y orégano.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: '4 Quesos',
 				precio: 6200,
 				description: 'Salsa de tomate, mozzarella, queso azul, provolote, parmesano y orégano.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Pizza la Boca',
 				precio: 6200,
 				description: 'Salsa de tomate, mozzarella, panceta crocante, provoletta y orégano.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 		],
 	},
@@ -247,34 +215,29 @@ export const dataMenues = [
 				nombre: 'Bocadillo de Espinaca',
 				precio: 4100,
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Patitas de pollo',
 				precio: 3600,
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Papas Fritas Barlovento',
 				precio: 4800,
 				description: 'Crema, panceta crocante, cebolla de verdeo.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Papas Fritas La Boca',
 				precio: 4800,
 				description: 'Cheddar, panceta crocante.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Papas Fritas Clásicas',
 				precio: 4200,
 				description: 'Salsa de tomate, mozzarella, parmesano, hongos, lluvia de ciboulette y orégano.',
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Rabas',
@@ -285,13 +248,11 @@ export const dataMenues = [
 				nombre: 'Fingers de Pescado',
 				precio: 6400,
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Gambas al Ajillo',
 				precio: 10500,
 				img: '../../public/imgComida.jpg',
-				
 			},
 			{
 				nombre: 'Gambas Empanadas',
@@ -303,7 +264,7 @@ export const dataMenues = [
 	{
 		id: 6,
 		title: 'Empanadas',
-		subTitle:'(Fritas o al horno)',
+		subTitle: 'Fritas o al horno',
 		items: [
 			{
 				nombre: 'Pollo',
@@ -326,7 +287,6 @@ export const dataMenues = [
 				img: '../../public/imgComida.jpg',
 			},
 		],
-		
 	},
 	{
 		id: 7,
@@ -335,13 +295,13 @@ export const dataMenues = [
 			{
 				nombre: 'Ensalada Barlovento',
 				precio: 4200,
-				description:"Pechuga, salsa caesar, lechuga, tomate y croutons.",
+				description: 'Pechuga, salsa caesar, lechuga, tomate y croutons.',
 				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Ensalada La Boca',
 				precio: 4200,
-				description:"Lechuga, rúcula, huevo duro, palta, parmesano y tomate.",
+				description: 'Lechuga, rúcula, huevo duro, palta, parmesano y tomate.',
 				img: '../../public/imgComida.jpg',
 			},
 			{
@@ -360,7 +320,7 @@ export const dataMenues = [
 	{
 		id: 8,
 		title: 'Carnes',
-		subTitle: '(Papas Fritas o ensalada)',
+		subTitle: 'Papas Fritas o ensalada',
 		items: [
 			{
 				nombre: 'Bife De Chorizo',
@@ -409,7 +369,7 @@ export const dataMenues = [
 			},
 			{
 				nombre: 'Salsas',
-				
+
 				precio: 1000,
 				description: 'Fileto, Crema, Mixta.',
 			},
@@ -417,20 +377,18 @@ export const dataMenues = [
 				nombre: 'Salsas',
 				precio: 1800,
 				description: 'Boloñesa, Champiñones a la crema, Roquefort a la crema.',
-				
 			},
 			{
 				nombre: 'Salsas Mediterranea',
 				precio: 2500,
 				description: 'Crema con Langostinos.',
-				
 			},
 		],
 	},
 	{
 		id: 10,
 		title: 'Pescados',
-		subTitle: '(Con papas fritas o ensalada)',
+		subTitle: 'Con papas fritas o ensalada',
 		items: [
 			{
 				nombre: 'Merluza a la Romana',
@@ -444,26 +402,27 @@ export const dataMenues = [
 			},
 			{
 				nombre: 'Lenguado al Roquefort',
-				
+
 				precio: 8800,
 				img: '../../public/imgComida.jpg',
 			},
 			{
-				nombre: 'Picada de Mar (Individual)',
+				nombre: 'Picada de Mar Individual',
 				precio: 9000,
 				img: '../../public/imgComida.jpg',
 			},
 			{
-				nombre: 'Picada de Mar (Compartir)',
+				nombre: 'Picada de Mar para compartir',
 				precio: 20200,
-				description: 'Rabas, cornalitos, langostinos apanados, calamares al escabeche, berenjenas en escabeche, fingers de merluza y papas fritas.',
+				description:
+					'Rabas, cornalitos, langostinos apanados, calamares al escabeche, berenjenas en escabeche, fingers de merluza y papas fritas.',
 				img: '../../public/imgComida.jpg',
 			},
 		],
 	},
 	{
 		id: 12,
-		title: 'Menú Celiacos',
+		title: 'Celiacos',
 		subTitle: 'Menú Celiacos Consultar',
 	},
 	{
@@ -482,8 +441,8 @@ export const dataMenues = [
 			},
 			{
 				nombre: 'Cafe Doble',
-				
-				precio:1500,
+
+				precio: 1500,
 				img: '../../public/imgComida.jpg',
 			},
 			{
@@ -520,38 +479,38 @@ export const dataMenues = [
 			{
 				nombre: 'Clásico',
 				precio: 1750,
-				description: "Infusión + 2 Medialunas/Porción de budín.",
+				description: 'Infusión + 2 Medialunas/Porción de budín.',
 				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'La Playa',
 				precio: 3800,
-				description: "Infusión + Exprimido de naranja + Porcións de tostadas con pan de campo, queso crema y mermelada casera.",
+				description: 'Infusión + Exprimido de naranja + Porcións de tostadas con pan de campo, queso crema y mermelada casera.',
 				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Marchi',
-				precio:4200,
-				description: "Infusión + Exprimido de naranja + tostado de jamon y queso con pan de campo.",
+				precio: 4200,
+				description: 'Infusión + Exprimido de naranja + tostado de jamon y queso con pan de campo.',
 				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Reserva',
 				precio: 4500,
-				description: "Infusión + Exprimido de naranja + 2 tostadas de pan Bagel con queso crema, huevos revueltos, palta.",
+				description: 'Infusión + Exprimido de naranja + 2 tostadas de pan Bagel con queso crema, huevos revueltos, palta.',
 				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'La Boca',
 				precio: 7500,
-				description: "(Para compartir)x2 Infusión + x2 Exprimido de naranja + Porción de tostadas x2 + queso crema y mermelada casera.",
+				description: 'Para compartir, x2 Infusión + x2 Exprimido de naranja + Porción de tostadas x2 + queso crema y mermelada casera.',
 				img: '../../public/imgComida.jpg',
 			},
 		],
 	},
 	{
 		id: 15,
-		title: 'Juegos/Licuados',
+		title: 'Licuados',
 		items: [
 			{
 				nombre: 'Exprimido Grande',
@@ -565,7 +524,7 @@ export const dataMenues = [
 			},
 			{
 				nombre: 'Jarra de Limonada',
-				precio:3000,
+				precio: 3000,
 				img: '../../public/imgComida.jpg',
 			},
 		],
@@ -586,7 +545,7 @@ export const dataMenues = [
 			},
 			{
 				nombre: 'Porción de Budín',
-				precio:850,
+				precio: 850,
 				img: '../../public/imgComida.jpg',
 			},
 			{
@@ -627,7 +586,7 @@ export const dataMenues = [
 			},
 			{
 				nombre: 'Frutillas con Crema',
-				precio:2200,
+				precio: 2200,
 				img: '../../public/imgComida.jpg',
 			},
 			{
@@ -656,7 +615,7 @@ export const dataMenues = [
 			},
 			{
 				nombre: 'Pepsi 500ML',
-				precio:1050,
+				precio: 1050,
 			},
 			{
 				nombre: 'Pepsi Black 500ML',
@@ -679,7 +638,6 @@ export const dataMenues = [
 				precio: 1050,
 			},
 		],
-		
 	},
 	{
 		id: 19,
@@ -713,8 +671,8 @@ export const dataMenues = [
 	},
 	{
 		id: 20,
-		title: 'Vinos Tinto',
-	
+		title: 'Vinos',
+
 		items: [
 			{
 				nombre: 'Alaris',
@@ -740,12 +698,11 @@ export const dataMenues = [
 				nombre: 'Trumpeter Malbec',
 				precio: 7400,
 			},
-
 		],
 	},
 	{
 		id: 21,
-		title:'Vinos Blanco',
+		title: 'Vinos',
 		items: [
 			{
 				nombre: 'Cosecha Tardía',
@@ -807,12 +764,12 @@ export const dataMenues = [
 			},
 			{
 				nombre: 'Johnnie Walker Red Label',
-				description: '(Medida)',
+				description: 'Medida',
 				precio: 2700,
 			},
 			{
 				nombre: 'Johnnie Walker Black Label',
-				description: '(Medida)',
+				description: 'Medida',
 				precio: 4200,
 			},
 		],
