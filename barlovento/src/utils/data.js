@@ -422,7 +422,7 @@ export const dataMenues = [
 	},
 	{
 		id: 12,
-		title: 'Celiacos',
+		title: 'Menu Celiacos',
 		subTitle: 'Menú Celiacos Consultar',
 	},
 	{
@@ -510,7 +510,7 @@ export const dataMenues = [
 	},
 	{
 		id: 15,
-		title: 'Licuados',
+		title: 'Jugos/Licuados',
 		items: [
 			{
 				nombre: 'Exprimido Grande',

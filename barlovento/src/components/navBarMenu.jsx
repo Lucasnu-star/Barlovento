@@ -12,7 +12,7 @@ export function NavBar() {
 
 	const settings = {
 		dots: false,
-		infinite: true,
+		infinite: false,
 		speed: 150,
 		slidesToShow: 4,
 		slidesToScroll: 3,
@@ -54,17 +54,17 @@ export function NavBar() {
 
 	return (
 		<Slider {...settings} className={`sticky top-0 z-10 bg-white shadow-lg py-2 ${scrollPosition < 0 ? 'bg-red-800' : ''}`} ref={navRef}>
-			{dataMenues.map((menuItem, index) => (
-				<div key={menuItem.id} className="flex gap-6 justify-center text-center box-border">
-					<Tab.Group>
-						<Tab.List>
-							<Tab onClick={() => handleTabClick(index)} className={`mx-6 px-5 ${activeTab === index ? 'bg-red-800' : ''}`}>
-								<a href={`#${menuItem.id}`}>{menuItem.title}</a>
-							</Tab>
-						</Tab.List>
-					</Tab.Group>
-				</div>
-			))}
-		</Slider>
+      {dataMenues.map((menuItem, index) => (
+        <div key={menuItem.id} className="flex gap-6 justify-center text-center box-border">
+          <Tab.Group>
+            <Tab.List className="border border-black w-full">
+              <Tab onClick={() => handleTabClick(index)} className={` text-xs py-2 px-3 ${activeTab === index ? 'bg-red-800' : ''}`}>
+                <a href={`#${menuItem.id}`}>{menuItem.title}</a>
+              </Tab>
+            </Tab.List>
+          </Tab.Group>
+        </div>
+      ))}
+    </Slider>
 	)
 }
