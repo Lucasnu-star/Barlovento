@@ -9,7 +9,7 @@ export function Cards({ title, img, price, priceDuo, description }) {
 				<h3 className="text-base font-bold mb-1 ">{title}</h3>
 
 				<p className="text-sm text-[#757575]">{description}</p>
-				<div className="flex mt-3 gap-3 items-center w-full justify-center">
+				<div className="flex mt-3 gap-3 items-center w-full">
 					{price && (
 						<div className="flex gap-1 h-full flex-col items-center">
 							{priceDuo && <span className="text-sm text-[#757575] text-center">Individual</span>}
