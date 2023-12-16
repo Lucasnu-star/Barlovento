@@ -13,7 +13,7 @@ export function NavBar() {
 	const settings = {
 		dots: false,
 		infinite: false,
-		speed: 100,
+		speed: 40,
 		slidesToShow: 3,
 		slidesToScroll: 3,
 		arrows: false,
