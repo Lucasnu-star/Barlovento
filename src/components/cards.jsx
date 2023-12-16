@@ -9,16 +9,16 @@ export function Cards({ title, img, price, priceDuo, description }) {
 				<h3 className="text-base font-bold mb-1 ">{title}</h3>
 
 				<p className="text-sm text-[#757575]">{description}</p>
-				<div className="flex mt-3 gap-3">
+				<div className="flex mt-3 gap-3 items-center w-full justify-center">
 					{price && (
-						<div className="flex gap-1 h-full flex-col">
+						<div className="flex gap-1 h-full flex-col items-center">
 							{priceDuo && <span className="text-sm text-[#757575] text-center">Individual</span>}
 							<span className="border w-fit px-4 p-1  rounded-lg bg-transparent text-[#757575] text-xs font-bold">${price}</span>
 						</div>
 					)}
 
 					{priceDuo && (
-						<div className="flex gap-1 h-full flex-col">
+						<div className="flex gap-1 h-full flex-col items-center">
 							<span className="text-sm text-[#757575] text-center">Para compartir</span>
 							<span className="border w-fit px-4 p-1 rounded-lg bg-transparent text-[#757575] text-xs font-bold">
 								${priceDuo}
