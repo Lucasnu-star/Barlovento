@@ -12,9 +12,9 @@ export function NavBar() {
 
 	const settings = {
 		dots: false,
-		infinite: true,
-		speed: 150,
-		slidesToShow: 4,
+		infinite: false,
+		speed: 100,
+		slidesToShow: 3,
 		slidesToScroll: 3,
 		arrows: false,
 	}
@@ -53,13 +53,13 @@ export function NavBar() {
 	}, [])
 
 	return (
-	<Slider {...settings} className={`sticky top-0 z-10 bg-white shadow-lg py-2 ${scrollPosition < 0 ? 'border-b-2 border-[#ff5023]' : ''}`} ref={navRef}>
+	<Slider {...settings} className={`sticky top-0 z-10 bg-white shadow-md py-3.5 ${scrollPosition < 0 ? 'border-b-2 border-[#ff5023]' : ''}`} ref={navRef}>
 		{dataMenues.map((menuItem, index) => (
         <div key={menuItem.id} className="flex  justify-center text-center ">
         	<Tab.Group>
 			<Tab.List
 		onClick={() => handleTabClick(index)}
-		className={`w-full overflow-x-auto text-xs py-2 px-1 ${
+		className={`w-full overflow-x-auto text-sm py-2 px-1 ${
     activeTab === index ? ' border-b-2 border-[#ff5023]' : ''
   }`}
 >
