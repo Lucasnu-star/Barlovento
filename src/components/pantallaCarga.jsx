@@ -10,22 +10,24 @@ const MyComponent = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center h-screen relative">
+    <section className="flex flex-col justify-between h-screen py-5">
      
-      <img  className="absolute top-0 left-1/2 transform -translate-x-1/2" src="./arribaabajo.png" alt="" />
+      <img  className=""  src="./arribaabajo.png" alt="" />
+      
 
       
-      <img  className="absolute top-1/3 left-1/2 transform -translate-x-1/2" src="./barlovento.png" alt="" />
-
+      <img  className="" data-aos="zoom-in" data-aos-duration="2000" src="./barlovento.png" alt="" />
       
-      <img className="absolute top-1/2 left-1/2 transform -translate-x-1/2" src="./laboca.png" alt="" />
-
-      <img className="absolute bottom-1/4 left-1/2 transform -translate-x-1/2" src="./redes.png" alt="" />
-
+      
+      <img className="" data-aos="zoom-in" data-aos-duration="2000" src="./laboca.png" alt="" />
+      
+      
+      <img className="" data-aos="zoom-in" data-aos-duration="2000" src="./redes.png" alt="" />
+      
      
-      <img    className="absolute bottom-0 left-1/2 transform -translate-x-1/2 rotate-180" src="./arribaabajo.png" alt="" />
-     
-    </div>
+      <img     className=" rotate-180" src="./arribaabajo.png" alt="" />
+      
+    </section>
   );
 };
 
