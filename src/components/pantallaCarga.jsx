@@ -10,7 +10,7 @@ const MyComponent = () => {
   }, []);
 
   return (
-    <section className="flex flex-col justify-between h-screen py-5">
+    <section className="flex flex-col justify-between h-screen ">
      
       <img  className=""  src="./arribaabajo.png" alt="" />
       
@@ -25,7 +25,7 @@ const MyComponent = () => {
       <img className="" data-aos="zoom-in" data-aos-duration="2000" src="./redes.png" alt="" />
       
      
-      <img     className=" rotate-180" src="./arribaabajo.png" alt="" />
+      <img      className=" rotate-180" src="./arribaabajo.png" alt="" />
       
     </section>
   );
