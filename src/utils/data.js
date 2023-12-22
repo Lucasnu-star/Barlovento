@@ -372,16 +372,19 @@ export const dataMenues = [
 
 				precio: 1000,
 				description: 'Fileto, Crema, Mixta.',
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Salsas',
 				precio: 1800,
 				description: 'Boloñesa, Champiñones a la crema, Roquefort a la crema.',
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Salsas Mediterranea',
 				precio: 2500,
 				description: 'Crema con Langostinos.',
+				img: '../../public/imgComida.jpg',
 			},
 		],
 	},
@@ -409,14 +412,14 @@ export const dataMenues = [
 			{
 				nombre: 'Picada de Mar Individual',
 				precio: 9000,
-				img: '../../public/imgComida.jpg',
+				img: '../../public/picadaMar.jpg',
 			},
 			{
 				nombre: 'Picada de Mar para compartir',
 				precio: 20200,
 				description:
 					'Rabas, cornalitos, langostinos apanados, calamares al escabeche, berenjenas en escabeche, fingers de merluza y papas fritas.',
-				img: '../../public/imgComida.jpg',
+				img: '../../public/picadaMar.jpg',
 			},
 		],
 	},
@@ -608,34 +611,42 @@ export const dataMenues = [
 			{
 				nombre: 'Agua sin Gas',
 				precio: 950,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Agua con Gas',
 				precio: 950,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Pepsi 500ML',
 				precio: 1050,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Pepsi Black 500ML',
 				precio: 1050,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: '7UP/7UP FREE',
 				precio: 1050,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Mirinda',
 				precio: 1050,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Paso de los Toros Pomelo',
 				precio: 1050,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Saborizada 500ML',
 				precio: 1050,
+				img: '../../public/imgComida.jpg',
 			},
 		],
 	},
@@ -646,26 +657,32 @@ export const dataMenues = [
 			{
 				nombre: 'Heineken Lata',
 				precio: 1200,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Stella Lata',
 				precio: 1500,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Corona Porron',
 				precio: 1700,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Patagonia Weisse',
 				precio: 2500,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Patagonia 24/7',
 				precio: 2500,
+				img: '../../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Patagonia Amber Lager',
 				precio: 2500,
+				img: '../../public/imgComida.jpg',
 			},
 		],
 	},
@@ -676,26 +693,33 @@ export const dataMenues = [
 		items: [
 			{
 				nombre: 'Alaris',
+				img: '../../public/imgComida.jpg',
 				precio: 3400,
 			},
 			{
 				nombre: 'Uxmal Malbec',
+				img: '../../public/imgComida.jpg',
 				precio: 5200,
+
 			},
 			{
 				nombre: 'Uxmal Cabernet Sauvignon',
+				img: '../../public/imgComida.jpg',
 				precio: 3900,
 			},
 			{
 				nombre: 'Benjamin Malbec',
+				img: '../../public/imgComida.jpg',
 				precio: 3600,
 			},
 			{
 				nombre: 'Alma Mora Malbec',
+				img: '../../public/imgComida.jpg',
 				precio: 4200,
 			},
 			{
 				nombre: 'Trumpeter Malbec',
+				img: '../../public/imgComida.jpg',
 				precio: 7400,
 			},
 		],
@@ -706,18 +730,22 @@ export const dataMenues = [
 		items: [
 			{
 				nombre: 'Cosecha Tardía',
+				img: '../../public/imgComida.jpg',
 				precio: 3400,
 			},
 			{
 				nombre: 'Santa Julia',
+				img: '../../public/imgComida.jpg',
 				precio: 6000,
 			},
 			{
 				nombre: 'Terrazas de los Andes',
+				img: '../../public/imgComida.jpg',
 				precio: 4900,
 			},
 			{
 				nombre: 'Trumpeter Chardonnay',
+				img: '../../public/imgComida.jpg',
 				precio: 7400,
 			},
 		],
@@ -728,48 +756,59 @@ export const dataMenues = [
 		items: [
 			{
 				nombre: 'Campari',
+				img: '../../public/imgComida.jpg',
 				precio: 2400,
 			},
 			{
 				nombre: 'Cinzano',
+				img: '../../public/imgComida.jpg',
 				precio: 2100,
 			},
 			{
 				nombre: 'Fernet',
+				img: '../../public/imgComida.jpg',
 				precio: 2600,
 			},
 			{
 				nombre: 'Gancia',
+				img: '../../public/imgComida.jpg',
 				precio: 2100,
 			},
 			{
 				nombre: 'Vodka con Naranja',
+				img: '../../public/imgComida.jpg',
 				precio: 2400,
 			},
 			{
 				nombre: 'Daikiri',
+				img: '../../public/imgComida.jpg',
 				precio: 2600,
 			},
 			{
 				nombre: 'Gintonic Beefeaters',
+				img: '../../public/imgComida.jpg',
 				precio: 3600,
 			},
 			{
 				nombre: 'Gintonic Restinga',
+				img: '../../public/imgComida.jpg',
 				precio: 2700,
 			},
 			{
 				nombre: 'Cuba Libre',
+				img: '../../public/imgComida.jpg',
 				precio: 2600,
 			},
 			{
 				nombre: 'Johnnie Walker Red Label',
 				description: 'Medida',
+				img: '../../public/imgComida.jpg',
 				precio: 2700,
 			},
 			{
 				nombre: 'Johnnie Walker Black Label',
 				description: 'Medida',
+				img: '../../public/imgComida.jpg',
 				precio: 4200,
 			},
 		],
