@@ -10,7 +10,7 @@ export const dataMenues = [
 				nombre: 'Sandwich Clásico',
 				precio: 4500,
 				description: 'Sandwich de milanesa clásica. Sencillamente delicioso.',
-				img: '../../public/imgComida.jpg',
+				img: '../public/imgComida.jpg',
 			},
 			{
 				nombre: 'Sandwich Completo',
